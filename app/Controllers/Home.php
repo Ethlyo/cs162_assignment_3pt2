@@ -12,6 +12,6 @@ class Home extends BaseController
 		
 		echo view('../Views/templates/header_view');
         echo view('my_welcome_message');
-        echo view('footer');
+        echo view('../Views/templates/footer');
 	}
 }
