@@ -10,7 +10,7 @@ class Home extends BaseController
 			'page_title' => 'Your title'
 		];
 		
-		echo view('header_view');
+		echo view('../Views/templates/header_view');
         echo view('my_welcome_message');
         echo view('footer');
 	}
