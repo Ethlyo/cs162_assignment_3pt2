@@ -9,9 +9,9 @@ class Home extends BaseController
 		$data = [
 			'page_title' => 'Your title'
 		];
-
-		$this->load->view('../Views/Templates/header');
-        $this->load->view('my_welcome_message');
-        $this->load->view('footer');
+		
+		echo view('header');
+        echo view('my_welcome_message');
+        echo view('footer');
 	}
 }
