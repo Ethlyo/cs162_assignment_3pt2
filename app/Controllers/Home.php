@@ -6,8 +6,8 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		$this->load->Views("header");
-        $this->load->Views("my_welcome_message");
-        $this->load->Views("footer");
+		$this->load->view('header');
+        $this->load->view('my_welcome_message');
+        $this->load->view('footer');
 	}
 }
