@@ -22,7 +22,3 @@
   </div>
 </header>
 
-
-<header class="w3-container w3-blue-grey">
-  <h2>Header</h2>
-</header>
